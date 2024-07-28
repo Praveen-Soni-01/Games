@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>www.PlayMarket.com</title>
+        <link rel = "stylesheet" href = "index.css">
+        <script>
+            function checkItem(obj)
+            {
+            var x = obj.id;
+            localStorage.setItem("id",x);
+            console.log(localStorage.getItem("id"));
+            return false;
+            }
+            function searchbar()
+            {
+                var x = document.getElementById("input").value;
+                switch(x)
+                {
+                    case "GTA V":
+                        localStorage.setItem("id","A1");
+                        window.open().location = "loginPAGE.html";
+                        break;
+                    case "COD M2":
+                        localStorage.setItem("id","A2");
+                        window.open().location = "loginPAGE.html"
+                        break;
+                    case "FORZA":
+                        localStorage.setItem("id","A3");
+                        window.open().location = "loginPAGE.html"
+                        break;
+                    case "MINECRAFT":
+                        localStorage.setItem("id","A4")
+                        window.open().location = "loginPAGE.html";
+                        break;
+                    case "CYBERPUNK":
+                        localStorage.setItem("id","A5")
+                        window.open().location = "loginPAGE.html";
+                        break;
+                    case "RANGNAROK":
+                        localStorage.setItem("id","A6")
+                        window.open().location = "loginPAGE.html";
+                        break;
+                    default:
+                        if(x == "")
+                            break;
+                        else
+                            alert("The Game You Requested For Is Not Available At The Moment");
+                }
+            }
+            function clicked()
+            {
+                searchbar();
+            }
+        </script>
+    </head>
+    <body onload = "localStorage.clear()">
+        
+            <h1>
+                PlayMarket 
+             </h1>
+            <div style="text-align: right;">
+                <h2 id = "y1"></h2>
+                <input  id = "input" type="text" placeholder = "Search Here" style="color:rgb(1, 247, 30);" onchange="searchbar()">
+                <button id="k" onclick="clicked()">Click</button>
+            </div>
+        <div class="div1">
+            <span class="a1" id = "z1" ><a href = "loginPAGE.html" target = "_blank"><button  onclick="checkItem(this)" id = "A1" >Explore</button ></a></span>
+            <span class="a2" id = "z2" ><a href = "loginPAGE.html" target = "_blank"><button  onclick="checkItem(this)" id = "A2" >Explore</button ></a></span>
+            <span class="a3" id = "z3" ><a href = "loginPAGE.html" target = "_blank"><button  onclick="checkItem(this)" id = "A3" >Explore</button ></a></span>
+        </div>
+        
+        <div class="div3">
+            <span class="s1">GTA V</span>
+            <span class="s2">COD M2</span>
+            <span class="s3">FORZA</span>
+        </div>
+        <div class="div2">
+            <span class="a4" id = "z4" ><a  href = "loginPAGE.html" target="_blank"><button onclick="checkItem(this)" id = "A4">Explore</button ></a></span>
+            <span class="a5" id = "z5" ><a href = "loginPAGE.html" target="_blank"><button  onclick="checkItem(this)" id = "A5" >Explore</button ></a></span>
+            <span class="a6" id = "z6"><a href = "loginPAGE.html" target = "_blank"><button  onclick="checkItem(this)" id = "A6" >Explore</button ></a></span>
+        </div>
+        <div>
+            <div CLASS="d6">
+            <span class="s4">MINECRAFT</span>
+            <span class="s5">CYBERPUNK</span>
+            <span class="s6">RAGNAROK</span>
+        </div>
+        <div class="d9">
+            <h3>Description :-</h3>
+            Welcome to <span class="s0">PlayMarket !</span> We are your ultimate destination for all your gaming needs. Whether you're a passionate gamer or a casual player, we've got you covered with a vast selection of games from various genres and platforms.In addition to buying games, we also provide valuable resources and information to enhance your gaming experience. Our blog features game reviews, industry news, tips, and tricks, helping you stay up-to-date with the latest trends and make informed decisions about your gaming choices.
+            Start exploring <span class="s0">PlayMarket !</span> today and embark on your next gaming adventure!
+        </div>
+        <hr>
+        <footer>
+            Contact us at : 
+            <ul>
+                <li>8593745590</li>
+                <li>6892475859</li>
+            </ul>
+            Our mail :-
+            game_buy@000gmail.com
+        </br>             
+            Copyright @ PlayMarket 2023 . All Rights Reserved.
+        </footer>
+        <script>
+            let i = 0,s = '';
+            setInterval(set_Heading,500);
+            function set_Heading()
+            {
+                if(i > 25)
+                    {
+                        i = 0;
+                        s = '';
+                    }
+                let a = "Enter the Gaming World....";
+                s += a[i];
+                i++;
+                document.getElementById("y1").innerHTML = s;
+            }
+        </script>        
+</body>
+</html>
+

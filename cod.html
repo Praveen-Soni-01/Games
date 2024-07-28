@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+            body{
+                width:100%;
+                height:100vh;
+                display:grid;
+                background-color: black;
+            }
+            .imgslider
+            {
+                width:100%;
+                height:600px;
+                background-image: url("cod1.jpeg");
+                background-size: 100% 100%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                animation: changeImage 20s linear infinite;
+                margin-bottom: 40px;
+            }
+            @keyframes changeImage {
+                0% {
+                    background-image: url("cod1.jpeg");
+                }
+                25% {
+                    background-image: url("cod2.jpeg");
+                }
+                50% {
+                    background-image: url("cod3.webp");
+                }
+                75% {
+                    background-image: url("cod4.jpeg");
+                }
+                100% {
+                    background-image: url("cod5.jpeg");
+                }
+            }
+            .d1
+            {
+                font-weight: bolder;
+                font-family: 'Cinzel Decorative', cursive;
+                color:rgb(55, 109, 226);
+                font-size: 100px;
+                text-align: center;
+                font-weight: bolder;
+            }
+            h1.p1
+            {
+               color:black;
+               font-size: 50px;
+               font-weight:lighter; 
+               text-align: left;
+               text-decoration: underline;
+            }
+            h1.p2
+            {
+               color:black;
+               font-size: 50px;
+               font-weight:lighter; 
+               text-align: left;
+               text-decoration: underline;
+            }
+            h1.p3
+            {
+               color:black;
+               font-size: 50px;
+               font-weight:lighter; 
+               text-align: left;
+               text-decoration: underline;
+            }
+            .d2
+            {
+                font-size: 25px;
+                color:black;
+                text-align: justify;
+                width: 700px;
+            }
+            .d3
+            {
+                font-size: 25px;
+                color:black;
+                text-align: justify;
+                width: 700px;
+            }
+            .d4
+            {
+                font-size: 25px;
+                color:black;
+                text-align: justify;
+                width: 700px;
+            }
+            .m1{
+                 background: url(modernwarfare_2.jpg);
+                 background-size: 100% 100%;
+                 border-style: solid;
+                 border-width: 2px;  
+                 border-color: azure;
+                 border-radius: 60px;
+                 border-color: black;
+                 padding:210px;
+                 width:100px;
+                 margin-left: 200px;
+            }
+            button{
+                    padding: 10px;
+                    position: relative;
+                    top: 260px;
+                    border-radius: 10px;
+                    border-width: none;
+                    width:200px;
+                    height:50px;
+                    background-color: azure;
+                    color:#050b21;
+                    font-family: Microsoft Sans Serif;
+                    font-weight: bolder;
+                    font-size: 25px;
+                    transition: 0.7s;
+                }
+                button:hover {
+                        background-color:#050b21;
+                        transition: 0.7s;
+                        color:azure;
+                    }
+                    .q1
+                    {
+                        text-align: justify;
+                        font-size: 10px;
+                        color: antiquewhite;
+                    }
+                    .d5
+                    {
+                        padding:200px;
+                        margin-top: 30px;
+                    }
+                    .x
+                    {
+                        text-align: center;
+                        font-size: 25px;
+                        font-style: italic;
+                        color:aqua;
+                    }
+                    .g
+                    {
+                        font-style: normal;
+                        font-weight: bolder;
+                        text-decoration: underline;
+                        color:chartreuse;
+                    }
+                    .j
+                    {
+                        font-size: 20px;
+                        color:azure;
+                        text-decoration: underline;
+                        text-align: left;
+                        margin-left: 0px;
+                    } 
+                    .want2
+                    {
+                        background-image: url("req.webp");
+                        background-size: 100% 100%;
+                    }      
+        </style>
+        <script>
+            function price()
+            {
+                localStorage.setItem("price","2500");
+                return false;
+            }
+        </script>
+    </head>
+    <body onload = "localStorage.clear()">
+        <div class="d1">COD Warzone</div>
+        <div class="imgslider"></div>
+        <div class="want2">
+            <h1 class="p1">TROPHY HUNT</h1>
+            <div class="d2">Collect event trophies across both Call of Duty®: Modern Warfare® II and Call of Duty®: Warzone™ 2.0 by eliminating opponents and collecting their dropped trophies.</div>
+            <h1 class="p2">BLACKCELL</h1>
+            <div class="d3">Purchase of the BlackCell allows exclusive access to the BlackCell Sector and instantly grants you more than 7,000 COD Points' worth of items*.</div>
+            <h1 class="p3">GET THE BATTLE PASS</h1>
+            <div class="d4">Buy the all-new Season 03 Battle Pass and get back up to 1400 CP as you level up. Use them to buy next season’s Battle Pass so the action never stops. </div>
+        </div>
+        <div class="d5">
+            <span class="m1"><a href="paymentGATEWAY.html"><button onclick = "price()">BuyNow</button></a></span>
+        </div>
+        <div>
+            </br>
+            </br>
+            </br>
+            <p class="x">Price :- Rs.2500</p>
+            <p class="x">Available for :- windows(8 or above),m1-chip,m2-chip.</p>
+            <p class="x">You can also play <span class="g">Online😃</span></p>
+        </div>
+        <p class="j">Copyright @ PlayMarket 2023 . All Rights Reserved.</p>
+    </body>
+</html>

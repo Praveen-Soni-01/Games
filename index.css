@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+h1{
+                
+    text-align:left;
+    background-color:rgb(35, 35, 35);
+    color:rgb(255, 255, 255);
+    font-size:90px;
+    font-weight:Microsoft Sans Serif;
+    font-family: 'Cinzel Decorative', cursive;
+    padding:10px; 
+    margin-top: -25px;
+    margin-left: -15px;
+    margin-right: -12px;
+}
+body{
+    background-image: url("forbck.jpeg");
+    background-size: 100%;
+}
+span.a1,span.a2,span.a3,span.a4,span.a5,span.a6{   
+    font-size: 60px;
+    border-style:solid;
+    border-radius: 60px;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    padding:150px;
+    width:40px;   
+} 
+.div1{
+    margin-top: 200px;
+    margin-left: 75px;
+}
+button{
+    padding: 10px;
+    position: relative;
+    top: 120px;
+    border-radius: 10px;
+    border-width: none;
+    width:120px;
+    height:50px;
+    background-color: #050b21;
+    color:azure;
+    font-family: Microsoft Sans Serif;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: 0.7s;
+}
+button:hover {
+    background-color:azure;
+    transition: 0.7s;
+    color:#050b21;
+}
+input{
+    line-height:35px;
+    width:200px;
+    position: relative;
+    bottom:130px;
+    right:-9px;
+    font-size: 20px;
+    background-color:rgb(2, 10, 56);
+}
+::placeholder {
+    color: rgb(241, 243, 243);
+    opacity: 1;
+}  
+
+.a2
+{
+    background: url(modernwarfare_2.jpg);
+    background-size: 100% 100%;
+    transition: 0.4s;
+}
+.a3
+{
+    background: url(forza_temp.jpg);
+    background-size: 100% 100%;
+    transition: 0.4s;
+}
+.div2{
+    margin-top: 200px;
+    margin-left: 80px;
+}
+.a4
+{
+    background: url(minecraft_blockcraft.jpg);
+    background-size: 100% 100%;
+    transition: 0.4s;
+}
+.a5
+{
+    background: url(V-from-Cyberpunk-2077.jpg);
+    background-size: 100% 100%;
+    transition: 0.4s;
+}
+.a6
+{
+    background: url(GOWR-1200x900.webp);
+    background-size: 100% 100%;
+    transition: 0.4s;
+}
+span.s1
+{
+    margin:260px;
+}
+span.s2
+{
+    margin:60px;
+    position: relative;
+    left: -15px;
+}
+span.s3
+{
+    margin:230px;
+}
+.div3
+{
+    margin-top:185px;
+}
+span.s1,span.s2,span.s3
+{
+    font-size: 30px;
+    position: relative;
+    bottom:30px;
+    text-shadow: 3px 5px 3px rgb(0, 0, 0);
+    color:aliceblue;
+    font-weight: bolder;
+}
+span.s4,span.s5,span.s6
+{
+    font-size: 30px;
+    text-shadow: 3px 5px 3px rgb(0, 0, 0);
+    color:aliceblue;
+    font-weight: bolder;
+}
+.d6
+{
+    margin:153px;
+    margin-bottom: 60px;
+}
+span.s4
+{
+    margin:60px;
+}
+span.s5
+{
+    margin:160px;
+}
+span.s6
+{
+    margin:55px;
+}
+.d9{
+    font-size: 90px;
+    text-align:justify;
+    color:rgb(28, 235, 1);
+    background-color:rgb(255, 255, 255);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 5px;
+    padding-right: 9px;
+    
+}
+.d9{
+    font-size: 20px;
+    text-align:justify;
+    color:rgb(79, 78, 78);
+    background-color:rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+}
+span.s0
+{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+    font-weight: 600;
+}
+footer
+{
+    font-size: 20px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -12px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+hr{
+    border-width: 20px;
+    border-color:#787878;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    margin-right: -12px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(6, 48, 48);
+    text-decoration: underline;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-bottom: 0px;
+}
+#k
+{
+  position: relative;
+  top:-127px;
+  right: -6px; 
+  height: 41px;
+  font-size: 20px;
+  border-radius: 0px;
+}
+#des
+{
+    margin-left: 10;
+    margin-right: 10; 
+}
+h3{
+    color:#050b21;
+}
+.a1
+{
+    background-image: url(gta_5.jpg);
+    background-size: 100% 100%;
+    transition: 0.4s;
+}   
+
+.a1:hover
+{
+    transition: 0.4s;
+    background-image: url(wp8617938.webp);
+    background-size: 100% 100%;
+}
+.a2:hover
+{
+    transition: 0.4s;
+    background-image: url(warzone-2.webp);
+    background-size: 100% 100%;
+}
+.a3:hover
+{
+    transition: 0.4s;
+    background-image: url(forza-horizon-4-street-racing-4k-e6.jpg);
+    background-size: 100% 100%;
+}
+.a4:hover
+{
+    transition: 0.4s;
+    background-image: url(wp7749587.webp);
+    background-size: 100% 100%;
+}
+.a5:hover
+{
+    transition: 0.4s;
+    background-image: url(cyberpunk-city-world-map_1575662679.jpg);
+    background-size: 100% 100%;
+}
+.a6:hover
+{
+    transition: 0.4s;
+    background-image: url(desktop-wallpaper-action-adventure-battle-of-god-of-war-video-games-god-of-war-fight-scene.jpg);
+    background-size: 100% 100%;
+}
+
+   
+

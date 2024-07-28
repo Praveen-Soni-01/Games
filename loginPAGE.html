@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel = "stylesheet" href = "loginPAGE.css">
+    <script>
+      function test()
+      {
+        var x = localStorage.getItem("id");
+        switch(x)
+        {
+          case "A1":
+              window.open().location = "gta5.html";
+              break;
+          case "A2":
+              window.open().location = "cod.html";
+              break;
+          case "A3":
+              window.open().location = "forza.html";
+              break;
+          case "A4":
+              window.open().location = "minecraft.html";
+              break;
+          case "A5":
+              window.open().location = "cyberpunk.html";
+              break;
+          case "A6":
+              window.open().location = "godofwar.html";   
+        }
+      }
+    </script>
+</head>
+<body>
+    <div class="login">
+        <h1>Login</h1>
+          <form id = "form" name = "form" onsubmit = "test()">
+            <input id = "email" type="email" name="u" placeholder="Enter Email Id Here" required="required" />
+              <input type="password" name="p" placeholder="Password" required="required" />
+              <button type="submit" class="btn btn-primary btn-block btn-large">Login</button>
+          </form>
+      </div>
+</body>
+</html>

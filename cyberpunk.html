@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+            body{
+                width:100%;
+                height:100vh;
+                display:grid;
+                background-color: black;
+            }
+            .imgslider
+            {
+                width:100%;
+                height:600px;
+                background-image: url("c1.jpeg");
+                background-size: 100% 100%;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                animation: changeImage 20s linear infinite;
+                margin-bottom: 40px;
+            }
+            @keyframes changeImage {
+                0% {
+                    background-image: url("c1.jpeg");
+                }
+                25% {
+                    background-image: url("c2.jpeg");
+                }
+                50% {
+                    background-image: url("c3.webp");
+                }
+                75% {
+                    background-image: url("c4.webp");
+                }
+                100% {
+                    background-image: url("Cyberpunk-Wallpaper-Desktop.jpg");
+                }
+            }
+            .d1
+            {
+                font-weight: bolder;
+                font-family: 'Cinzel Decorative', cursive;
+                color:#ffffff;
+                font-size: 100px;
+                text-align: center;
+                font-weight: bolder;
+            }
+            h1.p1
+            {
+               color:#FFD700;
+               font-size: 50px;
+               font-weight:lighter; 
+               text-align: left;
+               text-decoration: underline;
+            }
+            h1.p2
+            {
+               color:#FFD700;
+               font-size: 50px;
+               font-weight:lighter; 
+               text-align: left;
+               text-decoration: underline;
+            }
+            h1.p3
+            {
+               color:#FFD700;
+               font-size: 50px;
+               font-weight:bolder; 
+               text-align: left;
+               text-decoration: underline;
+            }
+            .d2
+            {
+                font-size: 25px;
+                color:#FFD700;
+                text-align: end;
+                width: 870px;
+                font-weight: 550;
+            }
+            .d3
+            {
+                font-size: 25px;
+                color:#FFD700;
+                text-align: end;
+                width: 840px;
+                font-weight: 550;
+            }
+            .d4
+            {
+                font-size: 25px;
+                color:#FFD700;
+                text-align: end;
+                width: 1000px;
+                font-weight: 550;
+            }
+            .m1{
+                 background: url(V-from-Cyberpunk-2077.jpg);
+                 background-size: 100% 100%;
+                 border-style: solid;
+                 border-width: 2px;  
+                 border-color: azure;
+                 border-radius: 60px;
+                 border-color: black;
+                 padding:210px;
+                 width:100px;
+                 margin-left: 200px; 
+            }
+            button{
+                    padding: 10px;
+                    position: relative;
+                    top: 260px;
+                    border-radius: 10px;
+                    border-width: none;
+                    width:200px;
+                    height:50px;
+                    background-color: azure;
+                    color:#050b21;
+                    font-family: Microsoft Sans Serif;
+                    font-weight: bolder;
+                    font-size: 25px;
+                    transition: 0.7s;
+                }
+                button:hover {
+                        background-color:#050b21;
+                        transition: 0.7s;
+                        color:azure;
+                    }
+                    .q1
+                    {
+                        text-align: justify;
+                        font-size: 10px;
+                        color: antiquewhite;
+                    }
+                    .d5
+                    {
+                        padding:200px;
+                        margin-top: 30px;
+                    }
+                    .x
+                    {
+                        text-align: center;
+                        font-size: 25px;
+                        font-style: italic;
+                        color:aqua;
+                    }
+                    .g
+                    {
+                        font-style: normal;
+                        font-weight: bolder;
+                        text-decoration: underline;
+                        color:chartreuse;
+                    }
+                    .j
+                    {
+                        font-size: 20px;
+                        color:azure;
+                        text-decoration: underline;
+                        text-align: left;
+                        margin-left: 0px;
+                    }
+                    .want5
+                    {
+                        background-image: url("Gk1sit.webp");
+                        background-size: 100% 100%;
+                    }       
+        </style>
+        <script>
+            function price()
+            {
+                localStorage.setItem("price","1500");
+                return false;
+            }
+        </script>
+    </head>
+    <body onload = "localStorage.clear()">
+        <div class="d1">CyberPunk</div>
+        <div class="imgslider"></div>
+        <div class="want5">
+            <h1 class="p1">NIGHT CITY CHANGES EVERY BODY</h1>
+            <div class="d2">Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.!</div>
+            <h1 class="p2">EXPLORE THE CITY OF THE FUTURE</h1>
+            <div class="d3">Night City is packed to the brim with things to do, places to see, and people to meet. And it’s up to you where to go, when to go, and how to get there.</div>
+            <h1 class="p3">BUILD YOUR LEGEND</h1>
+            <div class="d4">Go on daring adventures and build relationships with unforgettable characters whose fates are shaped by the choices you make.</div>
+        </div>
+        <div class="d5">
+            <span class="m1"><a href="paymentGATEWAY.html"><button onclick = "price()">BuyNow</button></a></span>
+        </div>
+        <div>
+            </br>
+            </br>
+            </br>
+            <p class="x">Price :- Rs.1500</p>
+            <p class="x">Available for :- windows(8 or above),m1-chip,m2-chip.</p>
+            <p class="x">You can also play <span class="g">Online😃</span></p>
+        </div>
+        <p class="j">Copyright @ PlayMarket 2023 . All Rights Reserved.</p>
+    </body>
+</html>
